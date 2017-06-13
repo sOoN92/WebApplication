@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee" version="3.0"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+	<display-name>Hello</display-name>
+	<servlet>
+		<servlet-name>Hello</servlet-name>
+		<servlet-class>esercizi.garbatella.servlet.PrimaServlet
+		</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Hello</servlet-name>
+		<url-pattern>/Hello</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Testo</servlet-name>
+		<servlet-class>esercizi.garbatella.servlet.ControlloTesto
+		</servlet-class>
+	</servlet>
+
+
+
+	<servlet-mapping>
+		<servlet-name>Testo</servlet-name>
+		<url-pattern>/Testo</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Mps</servlet-name>
+		<servlet-class>esercizi.garbatella.servlet.RadioButton</servlet-class>
+	</servlet>
+
+
+
+	<servlet-mapping>
+		<servlet-name>Mps</servlet-name>
+		<url-pattern>/Mps</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Frutta</servlet-name>
+		<servlet-class>esercizi.garbatella.servlet.CheckBox</servlet-class>
+	</servlet>
+
+
+
+	<servlet-mapping>
+		<servlet-name>Frutta</servlet-name>
+		<url-pattern>/Frutta</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>NavPag</servlet-name>
+		<servlet-class>esercizi.garbatella.servlet.NavigazionePagina</servlet-class>
+	</servlet>
+
+
+
+	<servlet-mapping>
+		<servlet-name>NavPag</servlet-name>
+		<url-pattern>/NavPag</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<servlet>
+		<servlet-name>Stati</servlet-name>
+		<servlet-class>esercizi.garbatella.servlet.GestioneStati</servlet-class>
+	</servlet>
+
+
+
+	<servlet-mapping>
+		<servlet-name>Stati</servlet-name>
+		<url-pattern>/Stati</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>CittaStato</servlet-name>
+		<servlet-class>esercizi.garbatella.servlet.GestioneCitta</servlet-class>
+	</servlet>
+
+
+
+	<servlet-mapping>
+		<servlet-name>CittaStato</servlet-name>
+		<url-pattern>/CittaStato</url-pattern>
+	</servlet-mapping>
+	
+
+
+
+</web-app>
